@@ -25,14 +25,10 @@
 html {
   scroll-behavior: smooth;
 }
-.page {
-  border: 3px red solid;
-  /* max-width: clamp(33rem, 30rem + 60vw, 117rem);
-  padding: 0 5rem;
- */
-} 
+
 
 body {
+ 
   background: var(--back-color);
   color: white;
   text-align: center;
@@ -111,8 +107,9 @@ input {
   
  
   border-radius: 8px;
-  min-width: 45rem;
-  min-height: 30px;
+  width: 300px;
+  /* min-width: 45rem; */
+  height: 30px;
   
 }
 
@@ -173,7 +170,7 @@ button {
   margin-top: 20px;
   margin-bottom: 10rem;
   background-color: #DEB764;
-  width: 50%;
+  width: 130px;
   min-height: 25px;
   border-radius: 8px;
   font-family: var(--font-One);
@@ -199,3 +196,40 @@ button:hover {
 input:invalid {
   border: 1px solid #FF1010; 
 } */
+
+@media (min-width: 700px) {
+
+h1 {
+  font-size: 5.5rem ;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+
+p {
+  font-family: var(--font-Two);
+  font-size: 2.8rem;
+  
+}
+.span {
+  margin-top: 20px;
+  margin-bottom: 30px;
+ 
+  font-family: var(--font-Two);
+  font-size: 2.3rem;
+  opacity: 0.7;
+}
+
+input {
+  
+ 
+  width: 500px;
+  /* min-width: 45rem; */
+  height: 30px;
+  
+}
+  button{ 
+  width: 200px;
+}
+
+}
