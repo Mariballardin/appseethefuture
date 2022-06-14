@@ -168,7 +168,7 @@ input::-moz-placeholder {  /* Firefox 19+ */
 button {
   border: none;
   margin-top: 20px;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   background-color: #DEB764;
   width: 130px;
   min-height: 25px;
@@ -196,6 +196,22 @@ button:hover {
 input:invalid {
   border: 1px solid #FF1010; 
 } */
+
+#resposta {
+  font-size: 5.7rem;
+  margin-top: 10px;
+  margin-bottom: 10rem;
+  color: var(--color1);
+  font-family: var(--font-Two);
+  transition: opacity 1s;
+}
+
+#resposta div {
+  font-size: 6rem;
+  font-family: var(--font-Three);
+  color: var(--color2);
+  margin-bottom: 10px;
+}
 
 @media (min-width: 700px) {
 

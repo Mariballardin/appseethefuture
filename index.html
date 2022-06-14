@@ -6,12 +6,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <script 
+  type="text/javascript" 
+  src="./script.js" defer></script>
   <link rel="stylesheet" href="style.css">
 
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Pacifico&display=swap" rel="stylesheet">
 </head>
-<div class="page">
+
+
 <body>
+  
+  <div class="page">
   <div class="container"> 
   
       <img src="https://c.tenor.com/g9uDv7CMoCEAAAAC/joia-yess.gif" alt="An image of the formal presidente of Brazil Lula">
@@ -35,17 +41,19 @@
  
         <div class="input-wrapper"> 
  
-          <input type="text" placeholder="Pergunta aí :)"/>
+          <input 
+          id="inputPergunta"
+          type="text" 
+          placeholder="Pergunta aí :)"/>
  
         </div>
  
-        <button>Boa sorte</button> 
+        <button 
+        id="buttonPerguntar"
+        onclick="fazerPergunta()">Boa sorte</button> 
 
-    
- 
-  
-  
-  <script src="./script.js"></script>
+<h3 id="resposta"></h3>
+
   
 </body>
 </div>
